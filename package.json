@@ -1,0 +1,38 @@
+{
+  "name": "@liqd-rn/video-cache",
+  "version": "0.0.2",
+  "description": "",
+  "author": "radixxko",
+  "license": "MIT",
+  "main": "dist/cache.js",
+  "types": "dist/cache.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "version": "npm i && tsc && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liqd-rn/video-cache.git"
+  },
+  "dependencies": {
+    "@liqd-rn/app-state": "^1.0.2",
+    "@liqd-rn/storage": "^0.1.11",
+    "@liqd-js/fast-object-hash": "^2.0.2",
+    "react-native-blob-util": "^0.19.11"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@tsconfig/react-native": "^3.0.5",
+    "@types/react": "^18.3.12",
+    "react": "18.3.1",
+    "react-native": "0.76.3",
+    "typescript": "^5.7.2"
+  }
+}
